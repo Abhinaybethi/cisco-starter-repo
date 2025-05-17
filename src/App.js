@@ -1,16 +1,17 @@
 import './App.css';
 import Banner from './components/Banner';
 import Exhibit from './components/Exhibit';
+import Address from './components/Address';
 
 function App() {
   return (
     <div className="App">
       <Banner />
-      <Exhibit heading="Sample Section 1">
-        <p>This is some content inside the first exhibit.</p>
+      <Exhibit heading="Your Public IPv4 Address">
+        <Address version="v4" />
       </Exhibit>
-      <Exhibit heading="Sample Section 2">
-        <p>Here’s another section with different data.</p>
+      <Exhibit heading="Your Public IPv6 Address">
+        <Address version="v6" />
       </Exhibit>
     </div>
   );

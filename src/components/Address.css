@@ -1,0 +1,25 @@
+.address {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.address h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.address .ip {
+  color: #007cf0;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.address .loading,
+.address .error {
+  color: #777;
+}
